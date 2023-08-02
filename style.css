@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,1fr);
+    height: 160vh;
+    width:160vh;
+}
+.Line1Left{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    grid-column: 1/3;
+    grid-row:1/3; 
+}
+.PhoneImg{
+    margin-top: 42px;
+}
+.PhoneText{
+    width: 160px;
+    text-align: left;
+    margin-top: 48px;
+}
+.PhoneTextP {
+    color: rgb(145, 144, 144);
+    font-size: medium;
+}
+.PhoneTextH3 {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: x-large;
+    width: 180px;
+}
+.Line1Right{
+    background-color: #f7f8f9;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-column: 3/5;
+    grid-row:1/3; 
+}
+.Line1RightText{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px ;
+}
+.Line1RightText p{
+    text-align: center;
+    color: #a5a7aa;
+    font-weight: bold;
+}
+.Line1RightText h1{
+    color: #000000;
+    font-weight: light;
+    width: 360px;
+    margin-left: 120px;
+    
+}
+.Download a{
+    color: #41d7df;
+}
+.Keyboard{
+    background-color: #f05638;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+    grid-row:3/5;   
+}
+.KeyboardPhoto img{
+    margin-top: 50px;
+}
+.KeyboardText h2{
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin-left: 50px;
+
+}
+.Learn a{
+    text-decoration: none;
+    color: #ffe674;
+    font-weight: bolder;
+    margin-left: 120px;
+}
+.Line2Center{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    grid-column: 2/4;
+    grid-row:3/5; 
+}
+.Line2CenterLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.CenterLeftText{
+    width: 160px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left:  80px;   
+}
+.CenterLeftH3 {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: x-large;
+    width: 160px;
+}
+.CenterLeftImg img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    object-position: 100%; 
+    margin-left: 50px;
+}
+.Line2CenterRight{
+    display: flex;
+    flex-direction: column;
+}
+.CenterRightText p{
+    color: #a5a7aa;
+    text-align: left;
+    width: 230px;
+    margin-left: 90px;
+    margin-top: 48px;
+}
+.Download2 a{
+    text-decoration: none;
+    color: #2b9297;
+    font-weight: bolder;
+    margin-left:12px ;   
+}
+.Download2 {
+    margin-top: 20px;
+}
+.Cd{
+    background-color: #8f76bc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 4/5;
+    grid-row:3/7;  
+}
+.CdText1{
+    background-color: #8f76bc;
+    padding: 0px 20px;
+    border-radius: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+.CdText1 p{
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+.CdImg{
+    background-color: #8166b0;   
+    padding: 20px 40px; 
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ButtonText h1{
+    color: white;
+    text-align: center;
+}
+.ButtonText p{
+    color: white;
+    text-align: center;
+    width: 240px;
+}
+.Learn2{
+    background-color: #ffc80a;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.Learn2 a{
+    text-decoration: none;
+    color: #000000;
+    font-size: small;
+}
+.Game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row:5/7;      
+}
+.GameText h2{
+    font-weight:lighter ;
+    width: 90px;
+    text-align: center;
+}
+.Learn3 a{
+    text-decoration: none;
+    color: #2b9297;   
+    font-weight: bold;
+}
+.tablet{
+    background-color: #93b6b7;
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/4;
+    grid-row:5/7; 
+}
+.BestChois{
+    background-color: #f05638;
+    width: 100px;
+    border-radius: 80px;
+    padding: 2px 8px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.BestChois a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+.TableText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tabletTitle h1{
+    color: white;
+    text-align: center;
+    width: 300px;
+    margin-top: 40px;
+}
+.tabletImg img{
+    margin-top: 22px;
+    margin-right: 90px;
+}
+.Twitter{
+    background-color: #38d5f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row:7/8;     
+}
+.TwitterTitle h2{
+    color: white;
+    font-weight: lighter;
+    width: 200px;
+    text-align: center;
+}
+.Popular{
+    grid-column: 2/3;
+    grid-row:7/8;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.PopularText{
+    background-color: #7bc424;
+    width: 100px;
+    border-radius: 80px;
+    padding: 2px 8px;
+    text-align: center;
+}
+.PopularText a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.PopularTitle h1{
+    font-weight: lighter;
+    font-size: larger ;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+.Tv{
+    background-color: #2c2c2c;
+    grid-column: 3/5;
+    grid-row:7/8;  
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.TvText h2{
+    color: white;
+    font-weight: lighter;
+    width: 190px;
+    margin-top: 50px;
+}
